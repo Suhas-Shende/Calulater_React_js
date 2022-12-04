@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: crimson;
+  margin: 50px 0px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.is_img {
+  display: flex;
+  justify-content: center;
+}
+.is_img img {
+  width: 200;
+  height: 150;
+}
