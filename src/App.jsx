@@ -1,14 +1,14 @@
 import React from "react";
-import { add, sub, div, multi } from "./Calc";
+import Pet from './Pet';
+import Searchpets from "./Searchpets";
 
-function App() {
-  return (
-    <>
-      <h1>The addition is {add(2, 3)}</h1>
-      <h1>The addition is {add(2, 3)}</h1>
-      <h1>The addition is {div(2200, 3)}</h1>
-      <h1>The addition is {add(2, 3)}</h1>
-    </>
-  );
-}
+const App = () => {
+  return (<div>
+    <h1>You are here</h1>
+    <Pet name="suhas" pet="dog" color="red"/>
+    <Pet name="Manish" pet="cat" color="orange"/>
+    <Searchpets/>
+
+  </div>);
+};
 export default App;
